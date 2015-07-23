@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane depthTest="INHERIT" disable="false" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mouseTransparent="false" pickOnBounds="true" prefHeight="500.0" prefWidth="567.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+  <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="114.0" stroke="BLACK" strokeType="INSIDE" width="567.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#ffc91f" />
+                  <Stop color="#edd642" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+    <TabPane disable="false" focusTraversable="true" layoutY="114.0" opacity="1.0" prefHeight="388.0" prefWidth="567.0" rotateGraphic="false" side="TOP" tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab text="Inicio">
+          <content>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+              <children>
+                <Text layoutX="40.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RESULTADO" />
+                <ProgressBar fx:id="progresso" layoutX="41.0" layoutY="340.0" minHeight="6.0" prefHeight="9.0" prefWidth="498.0" progress="0.0" />
+                <Button fx:id="ok" layoutX="477.0" layoutY="22.0" minHeight="15.960845947265625" mnemonicParsing="false" onAction="#ok" prefHeight="35.0" prefWidth="63.0" text="Ok">
+                           <tooltip>
+                              <Tooltip text="Rodar Programa" />
+                           </tooltip></Button>
+                <Button fx:id="e" layoutX="18.0" layoutY="81.0" mnemonicParsing="false" onAction="#botaoE" prefHeight="28.0" prefWidth="63.0" text="˄">
+                  <tooltip>
+                    <Tooltip text="E" textOverrun="WORD_ELLIPSIS" />
+                  </tooltip>
+                </Button>
+                <Button fx:id="ou" layoutX="18.0" layoutY="115.0" mnemonicParsing="false" onAction="#botaoOu" prefHeight="28.0" prefWidth="63.0" text="˅">
+                  <tooltip>
+                    <Tooltip text="Ou" />
+                  </tooltip>
+                </Button>
+                <Button fx:id="emplica" layoutX="88.0" layoutY="81.0" mnemonicParsing="false" onAction="#botaoEmplica" prefHeight="28.0" prefWidth="63.0" text="→">
+                  <tooltip>
+                    <Tooltip text="Emplica" />
+                  </tooltip>
+                </Button>
+                <Button fx:id="biemplica" layoutX="88.0" layoutY="115.0" mnemonicParsing="false" onAction="#botaoBiemplica" prefHeight="28.0" prefWidth="63.0" text="↔">
+                  <tooltip>
+                    <Tooltip text="Biemplica" />
+                  </tooltip>
+                </Button>
+                <Text layoutX="29.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SELECIONE O SIMBOLO DESEJADO">
+                  <font>
+                    <Font size="10.0" />
+                  </font>
+                </Text>
+                <Button fx:id="nagacao" layoutX="158.0" layoutY="81.0" mnemonicParsing="false" onAction="#negacao" prefHeight="28.0" prefWidth="63.0" text="¬">
+                  <tooltip>
+                    <Tooltip text="Negação" />
+                  </tooltip>
+                </Button>
+                        <TextArea id="imprime" fx:id="imprime" editable="false" layoutX="41.0" layoutY="177.0" prefHeight="161.0" prefWidth="498.0" />
+                        <TextField id="" fx:id="digita2" layoutX="303.0" layoutY="88.0" prefHeight="43.0" prefWidth="178.0" promptText="Texto Aqui" />
+                        <TextArea id="imprime" fx:id="imprime2" editable="false" layoutX="41.0" layoutY="22.0" prefHeight="35.0" prefWidth="436.0" />
+                        <Button fx:id="add" layoutX="481.0" layoutY="88.0" minHeight="15.960845947265625" mnemonicParsing="false" onAction="#add" prefHeight="43.0" prefWidth="63.0" text="Add">
+                           <tooltip>
+                              <Tooltip text="Adicionar " />
+                           </tooltip></Button>
+                        <Button fx:id="limp" layoutX="227.0" layoutY="115.0" minHeight="15.960845947265625" mnemonicParsing="false" onAction="#limpar" prefHeight="28.0" prefWidth="63.0" text="Limpar" />
+                        <Button fx:id="abrep" layoutX="157.0" layoutY="115.0" mnemonicParsing="false" onAction="#abrep" prefHeight="28.0" prefWidth="63.0" text="(">
+                           <tooltip>
+                              <Tooltip text="Abre Parenteses" />
+                           </tooltip>
+                        </Button>
+                        <Button fx:id="fechap" layoutX="227.0" layoutY="81.0" mnemonicParsing="false" onAction="#fechap" prefHeight="28.0" prefWidth="63.0" text=")">
+                           <tooltip>
+                              <Tooltip text="Fecha Parenteses" />
+                           </tooltip>
+                        </Button>
+              </children>
+            </Pane>
+          </content>
+        </Tab>
+        <Tab text="Grupo">
+          <content>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+              <children>
+                <Text layoutX="290.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+                <Text layoutX="122.0" layoutY="46.0" scaleX="1.0" scaleY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Professor Marlon Marcon">
+                  <font>
+                    <Font size="30.0" />
+                  </font>
+                </Text>
+                <Text layoutX="196.0" layoutY="86.0" scaleX="1.0" scaleY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Disciplina de Lógica">
+                  <font>
+                    <Font size="20.0" />
+                  </font>
+                </Text>
+                <Text layoutX="44.0" layoutY="349.0" scaleX="1.0" scaleY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Primeira Turma de Engenharia de Software UTFPR DV -  JUNHO DE 2015">
+                  <font>
+                    <Font size="15.0" />
+                  </font>
+                </Text>
+                        <Text layoutX="128.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GRUPO DE TRABALHO:">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="193.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gabriel de Paula">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="238.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jober ">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="229.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Leandro">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="237.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alison">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+              </children>
+            </Pane>
+          </content>
+        </Tab>
+        <Tab text="Ajuda">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <Text layoutX="118.0" layoutY="38.0" scaleX="2.4662447298873884" scaleY="2.3815467303907125" strokeType="OUTSIDE" strokeWidth="0.0" text="O que o programa faz?">
+                           <font>
+                              <Font size="10.0" />
+                           </font></Text>
+                <Text layoutX="89.0" layoutY="111.0" scaleX="2.4662447298873884" scaleY="2.3815467303907125" strokeType="OUTSIDE" strokeWidth="0.0" text="Como Utilizar?">
+                  <font>
+                    <Font size="9.0" fx:id="x1" />
+                  </font>
+                </Text>
+                <Text layoutX="194.0" layoutY="144.0" scaleX="2.4662447298873884" scaleY="2.3815467303907125" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o simbolo proposicional desejado na caixa de texto menor;">
+                           <font>
+                              <Font size="7.0" />
+                           </font></Text>
+                        <Text layoutX="50.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Remove os parenteses de uma formula valida e diz o tamanho da mesma.">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="44.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clique em Add e adicione ele ao visor maior;">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="44.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selecione os Conectivos e parenteses desejados">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="44.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aperte OK para rodar ou LIMPAR para limpar a tela">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="104.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Obs.: Não use &quot;V&quot; como simbolo proposicional =D">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Text>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+      <Text layoutX="43.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trabalho de Lógica">
+         <font>
+            <Font name="Bell MT" size="44.0" />
+         </font>
+      </Text>
+      <Text layoutX="149.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Engenharia de Software">
+         <font>
+            <Font name="Bell MT" size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="401.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="|">
+         <font>
+            <Font name="Bell MT" size="49.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="476.0" layoutY="70.0" stroke="BLACK" strokeType="OUTSIDE" text="FPR">
+         <font>
+            <Font name="Bodoni MT" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="421.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UT">
+         <font>
+            <Font name="Bodoni MT" size="45.0" />
+         </font>
+      </Text>
+  </children>
+  <effect>
+    <Blend />
+  </effect>
+</AnchorPane>

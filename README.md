@@ -9,3 +9,8 @@ Engenharia de Software - 2014-2
 #Sobre o Projeto
 
 ![projeto](https://image.prntscr.com/image/tFzlzi7lTrW0EfeTaDERlA.png)
+
+Para utilizar basta digitar as proposições e em meio aos botoes adicionar as conexões e parentesis.
+O dever da aplicação é remover os parentesis sem alterar o sentido lógico.
+
+![imagem2](http://prntscr.com/fnhq41)

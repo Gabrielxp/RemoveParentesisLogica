@@ -14,3 +14,8 @@ Para utilizar basta digitar as proposições e em meio aos botoes adicionar as c
 O dever da aplicação é remover os parentesis sem alterar o sentido lógico.
 
 ![imagem2](https://image.prntscr.com/image/v9_8Wn1wR3eHB8PXzOC8fg.png)
+
+
+#Utilização
+
+Pode ser utilizado por qualquer um em qualquer lugar, apenas referencie os autores e a instituição =D

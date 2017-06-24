@@ -13,4 +13,4 @@ Engenharia de Software - 2014-2
 Para utilizar basta digitar as proposições e em meio aos botoes adicionar as conexões e parentesis.
 O dever da aplicação é remover os parentesis sem alterar o sentido lógico.
 
-![imagem2](http://prntscr.com/fnhq41)
+![imagem2](https://image.prntscr.com/image/v9_8Wn1wR3eHB8PXzOC8fg.png)

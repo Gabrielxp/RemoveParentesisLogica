@@ -6,6 +6,10 @@ O mesmo tem a finalidade de remover parentesis de sentenças lógicas.
 Gabriel de Paula, Leandro, Alison Burgrever e Jober Campos
 Engenharia de Software - 2014-2
 
+# Ambiente
+Java8
+Eclipse ou Intellij
+
 # Sobre o Projeto
 
 ![projeto](https://image.prntscr.com/image/tFzlzi7lTrW0EfeTaDERlA.png)
